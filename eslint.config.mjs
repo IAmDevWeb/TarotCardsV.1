@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Utility scripts (Node.js, not part of the app)
+    "scripts/**",
+    // Auto-generated route types
+    "types/**",
   ]),
 ]);
 
